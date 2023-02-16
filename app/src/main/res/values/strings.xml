@@ -41,4 +41,5 @@
     <string name="showContact_phone">Phone: %1$s</string>
     <string name="showContact_address">Address: %1$s</string>
     <string name="showContact_birth">Birth: %1$s</string>
+    <string name="contacts_toast_cancel">Cancel</string>
 </resources>

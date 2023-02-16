@@ -99,7 +99,7 @@ class ContactsFragment : BaseFragment<FragmentContactsBinding>(FragmentContactsB
             getString(R.string.contacts_sbRemoved, contact!!.name),
             Snackbar.LENGTH_LONG
         )
-        delMessage.setAction("Cancel") {
+        delMessage.setAction(getString(R.string.contacts_toast_cancel)) {
             contactViewModel.addContact(contact)
         }.show()
     }
