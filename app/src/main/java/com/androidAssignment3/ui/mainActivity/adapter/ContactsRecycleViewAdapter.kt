@@ -11,12 +11,6 @@ import com.androidAssignment3.databinding.RecycleviewContactItemBinding
 import com.androidAssignment3.extension.addCircularImage
 import com.androidAssignment3.util.DiffUtil
 
-
-interface ContactClickListener {
-    fun deleteUser(contact: Contact)
-    fun showContact(contact: Contact)
-}
-
 class ContactsRecycleViewAdapter(private val contactClickListener: ContactClickListener) :
     ListAdapter<Contact, ContactsRecycleViewAdapter.Holder>(DiffUtil) {
 
